@@ -1,0 +1,36 @@
+{
+  "algorithm": "sha256",
+  "bundle_id": "bundle-demo-0001",
+  "files": {
+    "artifacts/html_snapshot.html": "5067e2a9a178c51b66670a9a7d9e1f51a591182203b7f4574d1c7680bcfd60e7",
+    "artifacts/screenshot.png": "ecb75b9a4038a3fc690bf10dbb37520827e685349f9a7d8ffcbe89353a9137b2",
+    "artifacts/thread_context.json": "24eca22e55fe8f58332e6294e1dc431f68021e2d843bd7d10e09144bd2b971b8",
+    "capture_failures.json": "d67fb78e45ca116cc98b8e53dc6cb50f8a6725a8abdac07defdbc01443c4f3f5",
+    "chain_of_custody.json": "37675cfdaa1f7a891e15613a4917ecfa8e069405c84bc9bec414ef840cbfa3c0",
+    "metadata.json": "ffa83ac4826da3fd9c4c964ccc37eba98dcdd52691c17852b055729ab7d57cc5",
+    "report.pdf": "0b38ab7f33ae315b377f7743effd4e331d37ba09edab0b78b6d448057256ecbd",
+    "review.json": "647aaaad266056f155c8570b8404f84240cae03bebfdbb2448cb8d54396b7c10"
+  },
+  "generated_at": "2026-06-20T12:00:00Z",
+  "missing_required": [],
+  "pack_complete": true,
+  "pack_complete_reason": "all required files present and integrity verified",
+  "pack_version": "0.2",
+  "required_core_items": [
+    "html_snapshot",
+    "thread_context",
+    "chain_of_custody"
+  ],
+  "required_files": [
+    "report.pdf",
+    "metadata.json",
+    "chain_of_custody.json",
+    "hash_manifest.json",
+    "capture_failures.json",
+    "review.json"
+  ],
+  "root_hash": "84d8a09472b54f7837d765c0981e6f1f73cd23c6de1ca1a8b1f9f3ec377f2189",
+  "timestamp_status": {
+    "status": "not_configured"
+  }
+}

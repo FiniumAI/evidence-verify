@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      # No pip installs: the package and tests are standard-library only.
+      - name: Verify demo pack (CLI end-to-end)
+        run: |
+          python examples/make_demo_pack.py --zip
+          python -m evidence_verify examples/demo-pack
+          python -m evidence_verify examples/demo-pack.zip --json
+      - name: Run test suite (unittest)
+        run: python -m unittest discover -s tests -v
+      - name: Run test suite (pytest if available)
+        run: |
+          python -m pip install pytest
+          python -m pytest tests/ -v
+        continue-on-error: true

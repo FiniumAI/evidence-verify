@@ -1,0 +1,68 @@
+{
+  "artifacts": [
+    {
+      "arcname": "artifacts/html_snapshot.html",
+      "integrity_ok": true,
+      "item_type": "html_snapshot",
+      "sha256_actual": "5067e2a9a178c51b66670a9a7d9e1f51a591182203b7f4574d1c7680bcfd60e7",
+      "sha256_recorded": "5067e2a9a178c51b66670a9a7d9e1f51a591182203b7f4574d1c7680bcfd60e7"
+    },
+    {
+      "arcname": "artifacts/thread_context.json",
+      "integrity_ok": true,
+      "item_type": "thread_context",
+      "sha256_actual": "24eca22e55fe8f58332e6294e1dc431f68021e2d843bd7d10e09144bd2b971b8",
+      "sha256_recorded": "24eca22e55fe8f58332e6294e1dc431f68021e2d843bd7d10e09144bd2b971b8"
+    },
+    {
+      "arcname": "artifacts/screenshot.png",
+      "integrity_ok": true,
+      "item_type": "screenshot",
+      "sha256_actual": "ecb75b9a4038a3fc690bf10dbb37520827e685349f9a7d8ffcbe89353a9137b2",
+      "sha256_recorded": "ecb75b9a4038a3fc690bf10dbb37520827e685349f9a7d8ffcbe89353a9137b2"
+    }
+  ],
+  "bundle_id": "bundle-demo-0001",
+  "capture_method": "make_demo_pack",
+  "capture_status": "captured",
+  "capture_timezone": "UTC",
+  "evidence_ladder": {
+    "items": {},
+    "pack_stage": "tamper_evident",
+    "reasons": []
+  },
+  "evidence_tier": "make_demo_pack",
+  "exporter": "make_demo_pack",
+  "generated_at": "2026-06-20T12:00:00Z",
+  "items": [
+    {
+      "capture_status": "captured",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "item_type": "html_snapshot",
+      "sha256_hash": "5067e2a9a178c51b66670a9a7d9e1f51a591182203b7f4574d1c7680bcfd60e7",
+      "timestamp_source": "system clock at capture time, recorded in UTC"
+    },
+    {
+      "capture_status": "captured",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "item_type": "thread_context",
+      "sha256_hash": "24eca22e55fe8f58332e6294e1dc431f68021e2d843bd7d10e09144bd2b971b8",
+      "timestamp_source": "system clock at capture time, recorded in UTC"
+    },
+    {
+      "capture_status": "captured",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "item_type": "screenshot",
+      "sha256_hash": "ecb75b9a4038a3fc690bf10dbb37520827e685349f9a7d8ffcbe89353a9137b2",
+      "timestamp_source": "system clock at capture time, recorded in UTC"
+    }
+  ],
+  "pack_complete": true,
+  "pack_complete_reason": "core items captured and integrity verified",
+  "pack_version": "0.2",
+  "review_status": "none",
+  "source_platform": "web",
+  "source_urls": {
+    "content_url": "https://example.com/post/123"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-06-20T12:00:00Z",
+  "content_url": "https://example.com/post/123",
+  "thread": [
+    {
+      "author": "example-user",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "text": "parent post content"
+    },
+    {
+      "author": "example-user-2",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "text": "reply content"
+    }
+  ]
+}

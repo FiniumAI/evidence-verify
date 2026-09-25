@@ -1,0 +1,46 @@
+{
+  "bundle_id": "bundle-demo-0001",
+  "capture_actor": "make_demo_pack.py",
+  "capture_method": "make_demo_pack",
+  "capture_timezone": "UTC",
+  "captured_at": "2026-06-20T12:00:00Z",
+  "content_url": "https://example.com/post/123",
+  "export_events": [
+    {
+      "app_commit": null,
+      "event": "evidence_pack_v0.2_export",
+      "exported_at": "2026-06-20T12:00:00Z",
+      "exporter": "make_demo_pack"
+    }
+  ],
+  "items": [
+    {
+      "artifact_uri": "artifacts/html_snapshot.html",
+      "capture_status": "captured",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "item_type": "html_snapshot",
+      "method": "make_demo_pack",
+      "sha256_hash": "5067e2a9a178c51b66670a9a7d9e1f51a591182203b7f4574d1c7680bcfd60e7"
+    },
+    {
+      "artifact_uri": "artifacts/thread_context.json",
+      "capture_status": "captured",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "item_type": "thread_context",
+      "method": "make_demo_pack",
+      "sha256_hash": "24eca22e55fe8f58332e6294e1dc431f68021e2d843bd7d10e09144bd2b971b8"
+    },
+    {
+      "artifact_uri": "artifacts/screenshot.png",
+      "capture_status": "captured",
+      "captured_at": "2026-06-20T12:00:00Z",
+      "item_type": "screenshot",
+      "method": "make_demo_pack",
+      "sha256_hash": "ecb75b9a4038a3fc690bf10dbb37520827e685349f9a7d8ffcbe89353a9137b2"
+    }
+  ],
+  "model_run_id": null,
+  "poster_profile_url": null,
+  "review_queue_id": null,
+  "source_platform": "web"
+}
