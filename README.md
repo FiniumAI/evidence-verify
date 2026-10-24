@@ -1,5 +1,7 @@
 # evidence-verify
 
+**Verify an evidence pack offline. No Finium account required.**
+
 An offline verifier for tamper-evident legal/web evidence packs. It re-hashes
 every file in an evidence pack, recomputes the aggregate root hash, and
 rejects tampered, missing, or smuggled-in files — with no network access, no
@@ -15,6 +17,21 @@ log, a capture-failure log, and optionally an RFC3161 timestamp token binding
 the pack's root hash to a trusted time. The pack format itself is specified in
 [PACK-FORMAT.md](PACK-FORMAT.md), written so a third party can produce
 verifiable packs independently of this tool.
+
+## Why it is open
+
+Built by [Finium](https://finium.tech), the applied-AI lab behind
+[Finium Legal](https://finiumlegal.com). Finium Legal brings monitoring,
+evidence collection, investigation and legal work into one workspace.
+
+Recipients should be able to inspect an evidence pack without our platform.
+The verifier and [pack format](PACK-FORMAT.md) are open so other producers and
+recipients can implement the same checks independently.
+
+**Integrity, not truth.** Verification does not establish source authenticity,
+factual truth, legal admissibility or qualified-timestamp status. See the
+[security notes](#security-notes--what-this-proves-and-what-it-does-not-prove)
+for the exact guarantees and limits.
 
 ## Usage
 
